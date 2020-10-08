@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "dxdportfolio"
+  },
+  "targets": {
+    "dxdportfolio": {
+      "hosting": {
+        "DxdPortfolio": [
+          "dxdportfolio"
+        ]
+      }
+    }
+  }
+}
