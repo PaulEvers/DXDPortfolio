@@ -1,9 +1,19 @@
 .is-info {
-    background: linear-gradient(150deg, rgba(76,169,223,1) 0%, rgba(41,46,145,1) 95%);
+  background: linear-gradient(
+    150deg,
+    rgba(76, 169, 223, 1) 0%,
+    rgba(41, 46, 145, 1) 95%
+  );
 }
 
 .content {
-    min-height: 90vh;
-    padding: 5%;
-    padding-left: 20%;
+  min-height: 90vh;
+  padding: 5%;
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+hr {
+  background-color: #363636;
 }

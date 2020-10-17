@@ -1,0 +1,29 @@
+.is-image {
+  background-image: url("/assets/img/vega/collab.png");
+  // background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  .title {
+    color: white;
+  }
+
+  .subtitle {
+    color: white;
+  }
+}
+
+.content {
+  min-height: 90vh;
+  padding: 5%;
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+hr {
+  background-color: #363636;
+}
