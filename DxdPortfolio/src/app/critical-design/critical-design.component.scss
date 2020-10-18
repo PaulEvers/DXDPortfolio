@@ -1,5 +1,5 @@
 .is-image {
-  background-image: url("/assets/img/hcd/laugh.jpg");
+  background-image: url("/assets/img/critical/header.jpg");
   // background-attachment: fixed;
   background-position: right;
   background-repeat: no-repeat;
@@ -34,4 +34,10 @@ hr {
   padding: 4%;
   text-align: center;
   font-weight: lighter;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
