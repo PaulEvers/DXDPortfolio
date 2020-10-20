@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import bulmaCarousel from 'bulma-carousel/dist/js/bulma-carousel.min.js';
+
 
 @Component({
   selector: 'app-media',

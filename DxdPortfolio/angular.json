@@ -30,6 +30,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "node_modules/bulma/css/bulma.min.css",
+              "node_modules/bulma-carousel/dist/css/bulma-carousel.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -97,6 +98,7 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "node_modules/bulma/css/bulma.min.css",
+              "node_modules/bulma-carousel/dist/css/bulma-carousel.min.css",
               "src/styles.scss"
             ],
             "scripts": []
