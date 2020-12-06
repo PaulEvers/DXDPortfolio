@@ -1,10 +1,10 @@
 .navbar {
-  background: rgba(240, 240, 240, 0.0);
+  background: rgba(240, 240, 240, 0);
   min-height: 10vh;
 }
 
 .navbar.is-fixed-top {
-    position: absolute;
+  position: absolute;
 }
 
 .navbar-item img {
@@ -41,6 +41,12 @@
 }
 
 a {
-    font-weight: bold;
-    color: white;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-dropdown {
+  .navbar-item {
+    background-color: #4284C8;
+  }
 }

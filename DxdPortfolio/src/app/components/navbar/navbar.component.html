@@ -29,7 +29,7 @@
       <a class="navbar-item" [routerLink]="['/criticalDesign']">
         Critical Design
       </a>
-      <!-- Critical design -->
+      <!-- Media theory -->
       <a class="navbar-item" [routerLink]="['/media']">
         Media Theory
       </a>
@@ -38,9 +38,26 @@
         Storytelling
       </a>
       <!-- Novum -->
-      <a class="navbar-item" [routerLink]="['/novum']">
-        Novum
-      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Novum
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" [routerLink]="['/novum/sprint1']">
+            Sprint 1
+          </a>
+          <a class="navbar-item" [routerLink]="['/novum/sprint2']">
+            Sprint 2
+          </a>
+          <a class="navbar-item" [routerLink]="['/novum/sprint3']">
+            Sprint 3
+          </a>
+          <a class="navbar-item" [routerLink]="['/novum/sprint4']">
+            Sprint 4
+          </a>
+        </div>
+      </div>
     </div>
 
   </div>

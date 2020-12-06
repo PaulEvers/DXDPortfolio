@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { CriticalDesignRoutingModule } from './critical-design-routing.module';
 import { CriticalDesignComponent } from './critical-design.component';
+import { MatExpansionModule } from '@angular/material';
 
 
 @NgModule({
   declarations: [CriticalDesignComponent],
   imports: [
     CommonModule,
-    CriticalDesignRoutingModule
+    CriticalDesignRoutingModule,
+    MatExpansionModule
   ]
 })
 export class CriticalDesignModule { }
