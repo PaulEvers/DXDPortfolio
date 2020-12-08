@@ -6,8 +6,8 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  @ViewChild('navBurger', {static: false}) navBurger: ElementRef;
-  @ViewChild('navMenu', {static: false}) navMenu: ElementRef;
+  @ViewChild('navBurger') navBurger: ElementRef;
+  @ViewChild('navMenu') navMenu: ElementRef;
 
   constructor() { }
 
