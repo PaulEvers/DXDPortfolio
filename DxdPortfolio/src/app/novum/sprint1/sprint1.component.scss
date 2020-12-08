@@ -1,0 +1,53 @@
+.is-image {
+  background-image: url("/assets/img/novum/sprint1/header.jpg");
+  // background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  .title {
+    color: white;
+  }
+
+  .subtitle {
+    color: white;
+  }
+}
+
+.content {
+  min-height: 90vh;
+  padding: 5%;
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: #f8f9fa;
+}
+
+hr {
+  background-color: #363636;
+}
+
+.quote {
+  background-color: white;
+  padding: 4%;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.insta {
+  height: 35%;
+}
+
+.slide-container {
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
