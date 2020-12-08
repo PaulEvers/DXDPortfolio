@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HcdRoutingModule } from './hcd-routing.module';
 import { HcdComponent } from './hcd.component';
-import { MatExpansionModule } from '@angular/material';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 @NgModule({
